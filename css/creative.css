@@ -45,21 +45,26 @@ p {
 }
 .grad {
     background: #80bfff; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#80bfff, #b3ecff, #ffffff); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#80bfff, #b3ecff, #ffffff); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#80bfff, #b3ecff, #ffffff); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#80bfff, #b3ecff); /* Standard syntax */
+    background: -webkit-linear-gradient(#4da6ff, #80bfff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4da6ff, #80bfff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4da6ff, #80bfff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4da6ff, #80bfff); /* Standard syntax */
 }
 .bg-primary {
   background-color: #80bfff;
 }
 #profile-pic{
+  margin-top: 75px;
   padding: 5px;
   border: 3px solid #ffffff;
 }
 #about-me {
   color: white;
   letter-spacing: 5px;
+}
+.bio p{
+  font-family: Helvetica;
+  /*background-color: rgba(153, 204, 255, 0.60);*/
 }
 .bg-dark {
   background-color: #222222;
