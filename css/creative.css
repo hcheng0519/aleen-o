@@ -262,6 +262,10 @@ hr.spec-hr {
   max-width: 650px;
   margin: 0 auto;
 }
+.portfolio-box img {
+  height: 300px;
+  width: 430px;
+}
 .portfolio-box .portfolio-box-caption {
   color: white;
   opacity: 0;
