@@ -43,12 +43,23 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+.grad {
+    background: #80bfff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#80bfff, #b3ecff, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#80bfff, #b3ecff, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#80bfff, #b3ecff, #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#80bfff, #b3ecff); /* Standard syntax */
+}
 .bg-primary {
   background-color: #80bfff;
 }
 #profile-pic{
   padding: 5px;
   border: 3px solid #ffffff;
+}
+#about-me {
+  color: white;
+  letter-spacing: 5px;
 }
 .bg-dark {
   background-color: #222222;
@@ -214,6 +225,10 @@ header .header-content .header-content-inner p {
 }
 .section-heading {
   margin-top: 0;
+  letter-spacing: 5px;
+}
+.service-box h3 {
+  color: #80bfff
 }
 .service-box {
   max-width: 400px;
@@ -224,8 +239,17 @@ header .header-content .header-content-inner p {
     margin: 20px auto 0;
   }
 }
+hr.spec-hr {
+  margin-top: 44px;
+}
 .service-box p {
   margin-bottom: 0;
+}
+
+#madeby a{
+  color: gray;
+  font-size: 75%;
+  text-align: center;
 }
 .portfolio-box {
   position: relative;
